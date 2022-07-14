@@ -19,6 +19,23 @@ public class stringmethod {
 		
 		System.out.println("substring:"+s.substring(3));
 		System.out.println("only lowo"+s.substring(3,8));
+		
+		String[] s2=s.split("");
+		System.out.println(s2[0]);
+		System.out.println(s2[1]);
+		
+		String[] s3=s.split("o");
+		System.out.println("no of derived words:"+s3.length);
+		System.out.println(s3[0]);
+		System.out.println(s3[1]);
+		System.out.println(s3[1]);
+		
+		System.out.println("index of space:"+s.indexOf(" "));
+		
+		System.out.println("replaced:"+s.replace("l","j" ));
+		
+		System.out.println("Uppercase:"+s.toUpperCase());
+		System.out.println("Lowercase:"+s.toLowerCase());
 	}
 
 }
